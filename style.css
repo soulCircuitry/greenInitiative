@@ -1,0 +1,48 @@
+/* Reset & basics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background: #0d1117;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #58a6ff;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+  
+  section {
+    margin-bottom: 4rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background: #0d1117;
+    color: white;
+  }
